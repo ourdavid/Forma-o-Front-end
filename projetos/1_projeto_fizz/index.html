@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fizz: O Trapaceiro das Marés</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div id="navbar">
+        <header class="navbar_logo"><p>CHAMPINFO</p></header>
+        <nav>
+            <ul>
+                <li><a href="#campeoes">Home</a></li>
+                <li><a href="#campeoes">Campeões</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#undefined">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div id="container">
+        <header id="main_header">
+            <div class="main_header_titles">
+                <h1>Fizz: O Trapaceiro das Marés</h1>
+                <p>“Vocês não podem nem respirar na água. Que chatos.”</p>
+            </div>
+            <div class="main_header_img">  
+                <figure>
+                    <img src="./assets/img/backgorund.jpg" alt="Foto de um peixe segurando um tridente" width="90%">
+                    <figcaption>Foto de um peixe segurando um tridente.</figcaption>
+                </figure>
+            </div>
+        </header>
+        <main>
+            <section class="apresentacao">
+                <header class="apresentacao_header">
+                    <h2>Apresentação</h2>
+                </header>
+                <p class="apresentacao_p">Fizz é um yordle anfíbio que vive entre os recifes que rodeiam Águas de Sentina. É comum que ele busque e devolva os dízimos jogados no mar por capitães supersticiosos, mas mesmo o mais velho dos marinheiros sabe que não é uma boa ideia irritá-lo. São muitas as histórias daqueles que subestimaram seu caráter escorregadio. Frequentemente confundido com algum tipo de espírito marinho imprevisível, ele comanda enormes bestas carnívoras das profundezas e se diverte confundindo tanto seus inimigos quanto seus aliados</p>
+            </section>
+            <hr class="line">
+             <div class="frases">
+                <blockquote>
+                    "Eu lhes mostrarei uma sepultura aquática ."
+                    <footer>- Fizz </footer>
+                </blockquote>
+             </div>
+            <hr class="line">
+            <section id="curiosidades">
+                <header><h2 class="curiosidades_main_title">Curiosidades Do Fizz</h2></header>
+                <ul>
+                    <li>Fizz é arteiro e gosta de confundir as pessoas de Águas de Sentina.</li>
+                    <li>Fizz tem um bom coração, mas não gosta de gananciosos ou egoístas.</li>
+                    <li>Fizz é o nome de uma bebida efervescente que surgiu nos Estados Unidos no século XIX. </li>
+                    <li>Fizz é uma criatura estranha e escorregadia, que pode invocar criaturas enormes, furar o casco de navios e respirar ar e água.</li>
+                    <li>O Fizz original era feito com gin, limão, açúcar e água carbonatada.</li>
+                </ul>
+            </section>
+            <hr class="line">
+            <section class="frases">
+                <blockquote>
+                    "O mar é o meu lar, e nele sou invencível."
+                    <footer>- Fizz</footer>
+                </blockquote>
+            </section>
+            <hr class="line">
+            <section id="main_habilidades">
+                <div class="main_habilidades_container">
+                    <figure>
+                        <img src="./assets/img/habilidade 1.png" alt="">
+                    </figure>
+                    <div class="habilidade_descricao">
+                        <header>
+                            <h3> Passiva - Lutador Ligeiro</h3>        
+                        </header>
+                        <p>Fizz ignora colisão permanentemente e recebe 4 - 14 (baseado no nível) a menos de dano físico de ataque básico (até no máximo 50%).</p>
+                    </div>
+                </div>
+                <div class="main_habilidades_container">
+                    <figure>
+                        <img src="./assets/img/habilidade 2.png" alt="">
+
+                    </figure>
+                    <div class="habilidade_descricao">
+                        <header>
+                            <h3> Q - Ataque do Ouriço </h3>        
+                        </header>
+                        <div class="habilidade_descricao_cinza">
+                            <p>Custo: 50 de mana</p>
+                            <p>Alcance: 550</p>
+                            <p>Tempo de Recarga: 8 / 7,5 / 7 / 6,5 / 6 segundos</p>
+                        </div>
+                        <p>Fizz pula uma distancia fixa em direção ao inimigo alvo, causando 100% Dano de Ataque de dano físico mais um bônus de dano mágico (10 / 25 / 40 / 55 / 70 (+ 55% AP)). A parte de dano físico aplica efeito de contato e a parte de dano mágico aplica efeitos de magia.</p>
+                    </div>
+                </div>
+                <div class="main_habilidades_container">
+                    <figure>
+                        <img src="./assets/img/habilidade 3.png" alt="">
+
+                    </figure>
+                    <div class="habilidade_descricao">
+                        <header>
+                            <h3> W - Tridente da Pedra do Mar </h3>        
+                        </header>
+                        <div class="habilidade_descricao_cinza">
+                            <p>Custo: 30 / 40 / 50 / 60 / 70 de mana</p>
+                            <p>Tempo de Recarga: 7 / 6,5 / 6 / 5,5 / 5</p>
+                        </div>
+                        <p>Passiva: Ataques básicos de Fizz em seus alvos, causam dano mágico durante 3 segundos, limitado contra tropas e monstros (20 / 30 / 40 / 50 / 60 (+ 40% AP)).
+
+                            Ativa: Os ataques básicos de Fizz causam dano mágico bônus (50 / 70 / 90 / 110 / 130 (+ 50% AP)) pelos próximos 6 segundos e ganham um bônus de 50 de alcance.
+                            
+                            Se este ataque matar uma unidade, Fizz recupera mana (20 / 28 / 36 / 44 / 52 ), o tempo de recarga da habilidade diminui para 1 segundo. Se não matar, os taques básicos ganham bônus de dano mágico de contato por 5 segundos (10 / 15 / 20 / 25 / 30 (+ 35% AP)).</p>
+                    </div>
+                </div>
+                <div class="main_habilidades_container">
+                    <figure>
+                        <img src="./assets/img/habilidade 4.png" alt="">
+
+                    </figure>
+                    <div class="habilidade_descricao">
+                        <header>
+                            <h3> E - Brincalhão / Trapaceiro </h3>        
+                        </header>
+                        <div class="habilidade_descricao_cinza">
+                            <p>Custo: 90 / 95 / 100 / 105 / 110 de mana</p>
+                            <p>Alcance: 330</p>
+                            <p>Tempo de Recarga: 16 / 14,5 / 13 / 11,5 / 10 segundos</p>
+                        </div>
+                        <p>1º uso: Fizz salta em cima de seu tridente na direção alvo, se tornando inavejável por 0,75 segundos, antes de cair no chão embaixo dele, causando dano mágico aos inimigos próximos (70 / 120 / 170 / 220 / 270 (+ 75% AP)) e lentidão por 2 segundos (40 / 45 / 50 / 55 / 60%).
+
+                            2º Uso: Fizz imediatamente desce do tridente na direção alvo, causando a mesma quantia de dano mágico ao inimigos que acerta porém dessa vez sem lentidão.</p>
+                    </div>
+                </div>
+                <div class="main_habilidades_container">
+                    <figure>
+                        <img src="./assets/img/ult.webp" alt="">
+                    </figure>
+                    <div class="habilidade_descricao">
+                        <header>
+                            <h3> R - Lançar Isca</h3>        
+                        </header>
+                        <div class="habilidade_descricao_cinza">
+                            <p>Custo: 100 de mana</p>
+                            <p>Alcance: 1300</p>
+                            <p>Tempo de Recarga: 100 / 85 / 70 segundos</p>
+                        </div>
+                        <p>Fizz joga um peixe em uma linha reta que prende ao primeiro campeão inimigo que acertar, causando lentidão nele por 1,5 segundos.
+                            Pelos próximos 6 segundos, o dano mágico de Fizz contra ele é aumentado em 20% excluindo o dano de Lançar Isca.
+                            Após 1,5 segundos, um tubarão vem na terra para comer o peixe, independente da sua posição. Inimigos acertados recebem dano mágico (200 / 325 / 450 (+ 100% do Poder de Habilidade)) e lentidão por 1,5 segundos após o dano.
+                            Se um campeão tem o peixe preso a ele, o tubarão lança ele para cima por 1 segundo. Outros inimigos próximos são lançados para longe em vez de para cima. O peixe providencia visão verdadeira da área de efeito, e fica na área em que foi jogado até se prender em um campeão inimigo ou ser comido pelo tubarão.</p>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer> Criado por <a href="https://www.linkedin.com/in/ourdavid/" style="text-decoration: none; font-weight: 600;">ourdavid</a></footer>
+    </div>
+</body>
+</html>

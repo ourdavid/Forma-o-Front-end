@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #011a47; 
+}
+#navbar{
+    margin: 0;
+    padding: 0;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    height: 80px;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.322);
+}
+.navbar_logo p{
+    color: #011a47;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    
+}
+#navbar ul a {
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+    color: #011a47;
+    text-transform: uppercase;
+}
+
+#navbar ul a:hover{
+    border-bottom: 1px solid rgb(38, 0, 255);
+}
+#container {
+    background-color: #f9f9f9; 
+    text-align: center;
+    padding: 40px; 
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.712); 
+    border-radius: 10px;
+    margin: 40px auto; 
+    max-width: 1200px;
+}
+
+/* container end*/
+
+/* main header */
+#main_header div{
+    margin-bottom: 16px;
+}
+
+.main_header_img figcaption{
+
+    margin-top: 16px;
+}
+
+/* main header end */
+
+/* Main Content */
+
+
+/**/
+.apresentacao{
+    text-align: left;
+}
+
+.apresentacao p,h2 {
+    margin-bottom: 16px;
+}
+
+.line{
+    border: 1px dotted rgba(204, 204, 204, 0.473);
+}
+
+.frases{
+    color: #fff;
+    background-color: #011a47;
+    padding: 30px;
+    margin: 16px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.712);
+}
+
+
+
+#curiosidades{
+    text-align: left;
+    margin: 16px 0;
+}
+#curiosidades ul{
+    padding: 0 20px;
+}
+.main_habilidades_container{
+    display: flex;
+    text-align: left;
+    margin: 30px 0;
+}
+.habilidade_descricao{
+    padding-left: 20px;
+}
+
+.main_habilidades_container h3, .habilidade_descricao_cinza{
+    margin-bottom: 16px;
+}
+
+.habilidade_descricao_cinza{
+    color: grey;
+    font-style: italic;
+}
+
+
+/* footer */
+
+footer a:hover{
+    color:red;
+}
