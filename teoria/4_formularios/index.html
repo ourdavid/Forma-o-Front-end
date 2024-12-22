@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h2>Formulario HTML</h2>
+    </div>
+
+    <!-- 1 formulario  -->
+    <form action="register.php" method="get">
+        <div>
+            <label for="">Nome</label>
+            <input type="text">
+        </div>
+        <!-- 2 atributos da tag form and submit-->
+        
+        <div>
+            <label for="age">Age<label>
+                <input type="number" name="age">
+        </div>
+
+            <div>
+                <label for="cor">Qual Sua etnia</label>
+                <select name="cor" id="" multiple>
+                    <option value="pardo" >pardo</option>
+                    <option value="branco" selected>branco</option>
+                    <option value="preto">preto</option>
+                    <option value="indio">indio</option>
+                </select>
+            </div>
+        <div>
+            <label for="commnet">oque achou do formulario</label>
+            <textarea name="commnet" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <fieldset>
+                <legend>login e senha</legend>
+                <label for="login">login</label>
+                <input type="email" name="login">
+                <label for="senha">senha</label>
+                <input type="password" name="senha">
+            </fieldset>
+        </div>
+        <label for="flavors">Escolha uma letra</label>
+        <input type="text" list="flavors"name="flavors">
+            <datalist id="flavors">
+                <option value="aaaaaa"></option>
+                <option value="bbbbbb"></option>
+                <option value="ccccc"></option>
+                <option value="dddddd"></option>
+                <option value="ffffff"></option>
+            </datalist>
+            <input type="submit">
+
+        
+    </form>
+</body>
+</html>

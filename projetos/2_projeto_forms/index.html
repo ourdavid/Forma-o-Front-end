@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <header class="main_header">
+        <p class="main_header_p">Cadastre seu veiculo para vender mais rapido!</p>
+    </header>
+    <main class="container">
+        <div class="container_header">
+            <p class="container_header_p">Formulario</p>
+        </div>
+        <section class="formulario">
+            <header class="formulario_header"> 
+                <h1>Venda Facil seu carro!</h1>
+                <p>Descreva as caracteristicas e marque</p>
+            </header>
+            <form action="">
+                <div class="formulario_campos">
+                    <label for="titulo">Titulo do Anuncio: <span>*</span></label>
+                    <input type="text" name="titulo" required placeholder="Um titulo para anunciar seu carro">
+                </div>
+                 <div class="formulario_campos">
+                    <label for="price">Preço: <span>*</span></label>
+                    <input type="number" name="price" required placeholder="Digite o preço do carro">
+                </div>
+                <div class="formulario_campos">
+                    <label for="marca">Descrição: <span>*</span></label>
+                    <input type="text" name="marca" required placeholder="Digite a Descrição do carro">
+                </div>
+                <div class="formulario_campos">
+                    <label for="marca">Marca: <span>*</span></label>
+                    <input type="text" name="marca" required placeholder="Digite a marca do carro">
+                </div>
+                <div class="formulario_campos">
+                    <label for="quilometragem">quilometragem: <span>*</span></label>
+                    <input type="number" name="quilometragem" required placeholder="quilometragem">
+                </div>
+                <div class="formulario_campos">
+                    <label for="dateBuy">Data de compra: <span>*</span></label>
+                    <input type="date" name="dateBuy" required >
+                </div>
+                <div class="formulario_campos">
+                    <label>Tipo de câmbio: <span>*</span></label>
+                
+                    <div class="formulario_campos_cambio">
+                        <input type="radio" id="cambio_manual" name="cambio" value="manual">
+                        <label for="cambio_manual">Manual</label>
+                
+                        <input type="radio" id="cambio_automatico" name="cambio" value="automatico">
+                        <label for="cambio_automatico">Automático</label>
+                    </div>
+                </div>
+                <div class="formulario_campos">
+                    <label>Opcionais:</label>
+                
+                    <div class="formulario_campos_opcoes ">
+                        <ul style="list-style: none; display: inline-block;">
+                            <li>
+                                <input type="checkbox" id="opcao1" name="opcoes" value="1">
+                                <label for="opcao1">1</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="opcao1" name="opcoes" value="1">
+                                <label for="opcao1">1</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="opcao1" name="opcoes" value="1">
+                                <label for="opcao1">1</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="opcao1" name="opcoes" value="1">
+                                <label for="opcao1">1</label>
+                            </li>
+                        </ul>
+                        <ul style="list-style: none; display: inline-block;">
+                            <li>
+                                <input type="checkbox" id="opcao1" name="opcoes" value="1">
+                                <label for="opcao1">1</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="opcao1" name="opcoes" value="1">
+                                <label for="opcao1">1</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="opcao1" name="opcoes" value="1">
+                                <label for="opcao1">1</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="opcao1" name="opcoes" value="1">
+                                <label for="opcao1">1</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+                <div class="formulario_campos">
+                    <label for="imgCar">Fotos do carro</label>
+                    <input type="file" name="imgCar" required multiple>
+                </div>
+
+                <input type="submit" value="Cadastrar" required>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
