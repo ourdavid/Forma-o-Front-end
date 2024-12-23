@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --primary-color: #252b2b;
+
+
+    /* text color */
+    --text-primary: #fff;
+    --text-secundary: #03cc14;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    height: 100px;
+    background-color: var(--primary-color);
+}
+
+.header img {
+     width: 50px;
+}
+
+.navbar-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-ul_li{
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+
+}
+
+.navbar-ul_li a:hover{
+    color: var(--text-secundary);
+    border-bottom: 1px solid;
+    
+}
+
+.navbar-ul_li a,.navbar-ul_li_actived a{
+     text-decoration: none;
+     color: var(--text-primary);
+}  
+
+.navbar-ul_li_actived{
+    padding: 15px 15px;
+    margin: 10px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #03cc14;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.navbar-ul_li_actived:hover{
+    background-color: #00ff1a;
+}
+
+.main-img{
+    background-image: url(/projetos/3_preojeto_hdc/assets/img/mainbanner.png);
+    height: 860px;
+    background-size: cover;
+    background-position: center;
+}
+.main-img_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    position: absolute; 
+    width: 100%;
+}
+
+.main-img_title p,h1 {
+    color:var(--text-primary);
+    margin-bottom: 16px;
+    text-shadow: 3px 2px 1px rgb(0, 0, 0);
+}
+
+.main-img_title h1 {
+font-size:3em;
+
+}
