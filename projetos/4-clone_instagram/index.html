@@ -4,35 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
-    <link rel="shortcut icon" type="image/jpg" href="/4-clone_instagram/assets/img/favicon.png"/>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon" >
+
 </head>
 <body>
-    <div class="container">
-        <div class="main-img">
-            <img src="/4-clone_instagram/assets/img/banner1.png" alt="">
-        </div>
-        <div class="login-container">
-            <div class="login-container_box">
-                <div class="login-container_box_header">
-                    <img src="/4-clone_instagram/assets/img/logo_instagram.png" alt="">
-                </div>
-                <div>
-                    <form action="" class="formulario_login">
-                        <input type="text" placeholder="Numero de telefone, usuario ou e-mail">
-                        <input type="password" placeholder="Senha">
-                        <input type="submit" value="Entrar" class="btn">
+    <main>
+        <!-- Banner -->
+        <div id="main-container">
+            
+            <div id="banner-container">
+                <img src="./assets/img/banner2.png" alt="Criar uma conta no Instagram">
+            </div>
+            <!-- Login e registro -->
+            <div id="form-container">
+                <div class="form-box">
+                    <img src="./assets/img/logo_instagram.png" alt="Instagram">
+                    <form action="" class="login-form">
+                        <input 
+                        type="text" 
+                        name="username" 
+                        placeholder="Numero de telefone, usuario ou e-mail">
+                        <input 
+                        type="password"
+                        name="password"
+                        placeholder="Senha">
+                        <input type="submit" value="Entrar">
                     </form>
+                    <div class="separator">
+                        <div class="line"></div>
+                        <span>Ou</span>
+                    </div>
+                    <div id="other-links">
+                        <div id="facebook-login">
+                            <img src="./assets/img/logo_facebook.svg" alt="login Facebook">
+                            <span>Entrar com Facebook</span>
+                        </div>
+                        <div id="forgot-pass">
+                            <a href="#">Esqueceu a senha?</a>
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="login-container_esqueceu">
-                    <img src="./assets/img/logo_facebook.svg" alt="">
-                    <p>Entrar com o facebook</p>
+                <div id="register-container">
+                    <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
                 </div>
-                <div>
-                    <p>Esqueceu a senha?</p>
+                <div id="get-app-container">
+                    <p>Obtenha o aplicativo</p>
+                    <a href="#"><img src="./assets/img/apple_btn.png" alt="Apple Store"></a>
+                    <a href="#"><img src="./assets/img/gplay_btn.png" alt="Google Play"></a>
                 </div>
             </div>
         </div>
-    </div>
-</body>
-</html>
+        </main>
+        <footer>
+            <nav>
+                <ul id="footer-links">
+                    <li><a href="#">Meta</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                    <li><a href="#">Api</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Termos</a></li>
+                    <li><a href="#">Principais Contas</a></li>
+                    <li><a href="#">Hashtags</a></li>
+                    <li><a href="#">Localização</a></li>
+                    <li><a href="#">Instagram Lite</a></li>
+                    <ul>
+                    </nav>
+                    <p id="copyright"> &copy;2022 instagram from Meta</p>
+                </footer>
+            </body>
+            </html>
