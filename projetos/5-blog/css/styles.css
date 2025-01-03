@@ -70,14 +70,18 @@ ul{
 }
 
 .post{
-    width: ;
+
     margin-bottom: 30px;
-    border: 1px solid;
+
+}
+
+.post img,h3,p,a{
+    margin-bottom: 14px;
 }
 /* aside */
 
 #sidebar{
-    width: 500px;
+    width: 300px;
     padding: 10px;
 }
 
@@ -120,7 +124,36 @@ border: 1px solid #cccccc;
 
 }
 
-.search_btn {
-    display: flex;
 
+
+.search_btn{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.search_btn input{
+    border: 1px solid;
+
+    border-right: none;
+}
+.search_btn #btn{
+    border: 1px solid black;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #7e22ce;
+    font-weight: 600;
+    color: white;
+    padding: 7px;
+}
+/* Footer */
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: grey;
 }
